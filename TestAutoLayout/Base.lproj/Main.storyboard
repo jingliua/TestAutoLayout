@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OZ4-zY-ZfX"/>
+                        <viewControllerLayoutGuide type="bottom" id="iAZ-fN-Wj8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelgjhfdasjhf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2g5-L5-4ZN">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你好吗AutoLayout，好久不见。哈哈哈哈哈哈哈哈哈，黑龙江队哈积分活动空间啊法国的拉风了福大回复" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-59-dei">
+                                <rect key="frame" x="0.0" y="60" width="600" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.50458409835508289" blue="0.36985615629817037" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1406773913750.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xnz-A4-hDo">
+                                <rect key="frame" x="180" y="218" width="240" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="R6U-EE-zOX">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="600"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="164" id="pNH-bg-LN4">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="200"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GJ-uE-odP">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xnz-A4-hDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4I3-3t-tlI">
+                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="2g5-L5-4ZN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6SP-J6-ozI"/>
+                            <constraint firstItem="2g5-L5-4ZN" firstAttribute="top" secondItem="Xnz-A4-hDo" secondAttribute="bottom" constant="20" id="AZm-bM-zgJ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="5"/>
+                            </constraint>
+                            <constraint firstItem="3GJ-uE-odP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CGk-Yd-RRU"/>
+                            <constraint firstItem="QIt-59-dei" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CU0-wW-Gb7"/>
+                            <constraint firstAttribute="trailing" secondItem="3GJ-uE-odP" secondAttribute="trailing" constant="30" id="Ees-Rz-noZ"/>
+                            <constraint firstItem="3GJ-uE-odP" firstAttribute="top" secondItem="QIt-59-dei" secondAttribute="bottom" constant="17" id="VHu-RF-sID">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="2g5-L5-4ZN" firstAttribute="top" secondItem="QIt-59-dei" secondAttribute="bottom" constant="100" id="Y0w-Ke-BvN"/>
+                            <constraint firstItem="3GJ-uE-odP" firstAttribute="top" secondItem="QIt-59-dei" secondAttribute="bottom" constant="100" id="cWq-oP-ERa"/>
+                            <constraint firstItem="Xnz-A4-hDo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ckf-wI-JAr">
+                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="2g5-L5-4ZN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="db7-Al-xWe"/>
+                            <constraint firstItem="QIt-59-dei" firstAttribute="top" secondItem="OZ4-zY-ZfX" secondAttribute="bottom" constant="40" id="gWC-aT-R2R"/>
+                            <constraint firstAttribute="trailing" secondItem="QIt-59-dei" secondAttribute="trailing" id="o7a-Ox-lh2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="6SP-J6-ozI"/>
+                                <exclude reference="AZm-bM-zgJ"/>
+                                <exclude reference="Y0w-Ke-BvN"/>
+                                <exclude reference="db7-Al-xWe"/>
+                                <exclude reference="CGk-Yd-RRU"/>
+                                <exclude reference="Ees-Rz-noZ"/>
+                                <exclude reference="VHu-RF-sID"/>
+                                <exclude reference="cWq-oP-ERa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2g5-L5-4ZN"/>
+                                <include reference="3GJ-uE-odP"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6SP-J6-ozI"/>
+                                <include reference="AZm-bM-zgJ"/>
+                                <include reference="CGk-Yd-RRU"/>
+                                <include reference="VHu-RF-sID"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Y0w-Ke-BvN"/>
+                                <include reference="db7-Al-xWe"/>
+                                <include reference="Ees-Rz-noZ"/>
+                                <include reference="cWq-oP-ERa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="2g5-L5-4ZN" id="yiq-LZ-c4k"/>
+                        <outlet property="imgHeight" destination="pNH-bg-LN4" id="1EO-EX-LFO"/>
+                        <outlet property="imgView" destination="Xnz-A4-hDo" id="cJy-rq-t7o"/>
+                        <outlet property="imgWidth" destination="R6U-EE-zOX" id="Uhg-tS-ylz"/>
+                        <outlet property="label" destination="3GJ-uE-odP" id="auc-xe-TxI"/>
+                        <outlet property="titleLabel" destination="QIt-59-dei" id="MNa-WO-M2E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="312.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1406773913750.jpg" width="1440" height="900"/>
+    </resources>
+</document>
